@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "人像拍照构图助手",
+    "slug": "photo-pose-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.photo.pose.app"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.photo.pose.app"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "允许访问相册以选择照片进行本地构图分析",
+          "cameraPermission": "允许使用相机拍摄照片进行本地构图分析"
+        }
+      ]
+    ]
+  }
+}
